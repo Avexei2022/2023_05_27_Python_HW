@@ -7,7 +7,6 @@ def print_result(message, item_to_print):
 
 
 def create_random_matrix():
-    # size_x = size_y = np.random.randint(4, 10)
     size_matrix = tuple(np.random.randint(4, 10, 2))
     return np.random.randint(10, size=size_matrix)
 
